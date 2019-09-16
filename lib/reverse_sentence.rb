@@ -39,7 +39,7 @@ end
 def reverse_sentence(my_sentence)
   return nil if my_sentence.nil? || my_sentence.length == 0
 
-  my_sentence.reverse!
+  partial_reverse(my_sentence, 0, my_sentence.length - 1)
 
   reverse_words(my_sentence)
 end
