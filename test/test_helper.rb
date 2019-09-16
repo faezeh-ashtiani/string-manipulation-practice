@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/reporters'
-require_relative '../lib/reverse_sentence'
+require "minitest/skip_dsl"
 
 Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 
