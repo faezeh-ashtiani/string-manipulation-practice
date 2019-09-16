@@ -34,8 +34,11 @@ end
 
 
 # A method to reverse the words in a sentence, in place.
-# Time complexity: ?
-# Space complexity: ?
+# Time complexity: O(n) where n is the number of characters in my_sentence
+# - O(n) time to reverse all characters in the sentence. ("Let's go" becomes "og s'teL")
+# - O(2n) time to reverse words in the sentence. ("og s'teL" becomes "go Let's")
+# - Overall, O(3n) or simplified to O(n)
+# Space complexity: O(1) - auxiliary storage used does not depend on input
 def reverse_sentence(my_sentence)
   return nil if my_sentence.nil? || my_sentence.length == 0
 
