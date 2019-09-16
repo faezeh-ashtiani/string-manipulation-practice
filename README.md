@@ -19,5 +19,5 @@ Remember that a string is an array of characters. Algorithms that worked on rest
   * If the complexity is shared in terms of *n*, your explanation must explain what *n* stands for.
 
 **Notes:**
-    * Do not use Ruby provided functionality for `.reverse` and `.reverse!`.
+    * Do not use Ruby provided functionality for `.sort`, `.reverse` and `.reverse!`.
     * You may use `.length` method available in the String class.
