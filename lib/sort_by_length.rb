@@ -1,5 +1,3 @@
-require "awesome_print"
-
 def swap(index_a, index_b, list)
   temp = list[index_a]
   list[index_a] = list[index_b]
